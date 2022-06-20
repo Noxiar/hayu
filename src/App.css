@@ -1,6 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 .App {
   text-align: center;
+  width: 1000px;
+  height: 1480px;
 }
+.body {
+  width : 1000px;
+  height : 1480px;
+
+}}
 
 .App-logo {
   height: 40vmin;
@@ -22,6 +34,13 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.card {
+  background-color: theme('colors.white');
+  border-radius: theme('borderRadius.lg');
+  padding: theme('spacing.6');
+  box-shadow: theme('boxShadow.xl');
 }
 
 .App-link {
